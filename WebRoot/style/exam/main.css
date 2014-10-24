@@ -1,0 +1,57 @@
+@charset "utf-8";
+.fz12{ font-size:12px;}
+.fz12b{ font-size:12px;font-weight:bold;}
+.fz14{ font-size:14px;}
+.fz14b{ font-size:14px;font-weight:bold;}
+.fz16{ font-size:16px;}
+.fz18{ font-size:18px;}
+.fz20{ font-size:20px;}
+.fz24{ font-size:24px;}
+.fz56{ font-size:56px;}
+.blue{ color:#116fad;}
+.gray{ color:#808080;}
+.black{color:#333;}
+.red{ color:#C30;}
+.b_yellow{ background:#f29500;}
+.b_red{ background:#e60012;}
+.b_blue{ background:#a7c39a;}
+.bold{ font-weight:bold;}
+p,ul,li,input,table,tr,td,h1,h2{ text-decoration:none; list-style:none; border:none; padding:0px; margin:0px;}
+a{ margin:0px; padding:0px; text-decoration:none; cursor:pointer;}
+a:hover{ text-decoration:none; zoom:1; }
+body{ width:100%; height:auto; margin:0 auto; font-size:12px; color:#565656; background:#fff;}
+/* ----------------------------testNotice---------------------- */
+.tnotice_box{width:100%;*width:auto;_width:100%;height:auto;}
+.tnotice_bleft{ float:left;width:30px;height:auto;}
+.tnotice_bcenter{ width:100%;height:auto;}
+.tnotice_bright{float:right;width:30px;height:auto;}
+.tnotice_bldiv{ float:left;width:30px;height:auto;}
+.tnotice_bcdiv{float:left;width:auto;height:auto;margin-top:0px;}
+.tnotice_brdiv{float:left;width:30px;height:auto;}
+.tnotice_bbox{width:100%;height:auto; margin-top:10px;border:1px solid #ccc; position:relative;}
+.tnotice_bbleft{ float:left;width:25px;height:auto;}
+.tnotice_bbcenter{ _width:auto;width:100%;*width:auto;padding-bottom:50px;}
+.tnotice_bbright{float:right;width:25px;height:auto;}
+.tnotice_bbldiv{ float:left;width:25px;height:auto;}
+.tnotice_bbcdiv{float:left;width:auto;height:auto;margin-top:0px;}
+.tnotice_bbrdiv{float:left;width:25px;height:auto;}
+.current_time{ position:absolute;left:0px; top:0px; padding:3px 0px; text-align:left; font-weight:bold; font-size:14px; color:#fff; background:#116FAD; font-family:"Arial"}
+.tnotice_bbcenter h1{text-align:center;padding-top:30px;padding-bottom:10px;line-height:20px;font-size:16px;color:#116fad;}
+.tnotice_bbcenter .topdiv{text-align:center;line-height:30px;color:#565656;}
+.tnotice_bbcenter .topdiv span{padding:0px 15px;}
+.tnotice_bbcenter .line{width:100%;height:1px;border-top:1px solid #ccc;margin:20px 0px;}
+.tnotice_bbcenter h2{text-align:center;padding-top:10px;padding-bottom:10px;line-height:20px;font-size:14px;tont-weight:bold;color:#565656;}
+.tnotice_bbcenter .condiv{text-align:left;line-height:30px;font-size:14px;color:#565656;}
+.tnotice_btnbox{width:100%;height:auto;marin:0 auto;text-align:center;}
+.tnotice_btn{ width:auto;height:auto;line-height:45px; color:#fff;margin-top:20px;font-size:14px;cursor:pointer; margin-bottom:20px; display:inline-block;}
+.tnotice_btn .left{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -54px -107px no-repeat;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn .center{float:left;width:auto;height:45px;padding:0px 30px 0px 30px;background:url(../../images/btn_h45.jpg) 0px 0px  repeat-x;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn .right{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -70px -107px no-repeat;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:hover .left{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -54px -152px no-repeat;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:hover .center{float:left;width:auto;height:45px;padding:0px 30px 0px 30px;background:url(../../images/btn_h45.jpg) 0px -45px  repeat-x;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:hover .right{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -70px -152px no-repeat;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:active .left{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -54px -197px no-repeat;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:active .center{float:left;width:auto;height:45px;padding:0px 30px 0px 30px;background:url(../../images/btn_h45.jpg) 0px -90px  repeat-x;display:-moz-inline-box; display:inline-block;}
+.tnotice_btn:active .right{float:left;width:6px;height:45px;background:url(../../images/testIcon.gif) -70px -197px no-repeat;display:-moz-inline-box; display:inline-block;}
+
+

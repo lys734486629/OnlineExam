@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Loginservlet</servlet-name>
+    <servlet-class>servlet.Loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Exambuild</servlet-name>
+    <servlet-class>servlet.Exambuild</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AcceptAnswerServlet</servlet-name>
+    <servlet-class>servlet.AcceptAnswerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Checkpoint</servlet-name>
+    <servlet-class>servlet.Checkpoint</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>filter</servlet-name>
+    <servlet-class>servlet.filter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Inputservlet</servlet-name>
+    <servlet-class>servlet.Inputservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Inputtest</servlet-name>
+    <servlet-class>servlet.Inputtest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Studentlist</servlet-name>
+    <servlet-class>servlet.Studentlist</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Loginservlet</servlet-name>
+    <url-pattern>/servlet/Loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exambuild</servlet-name>
+    <url-pattern>/servlet/Exambuild</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AcceptAnswerServlet</servlet-name>
+    <url-pattern>/servlet/AcceptAnswerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Checkpoint</servlet-name>
+    <url-pattern>/servlet/Checkpoint</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>filter</servlet-name>
+    <url-pattern>/servlet/filter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Inputservlet</servlet-name>
+    <url-pattern>/servlet/Inputservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Inputtest</servlet-name>
+    <url-pattern>/servlet/Inputtest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Studentlist</servlet-name>
+    <url-pattern>/servlet/Studentlist</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

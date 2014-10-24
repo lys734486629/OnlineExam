@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* 通用布局 */
+body {
+	background: #fff;
+	position:relative;
+	zoom:1;
+}
+.bg{ background:url(../images/login/bg_line.jpg) repeat;}
+.wrapper {
+	width: 794px;
+	height: auto;
+	margin: 0px auto;
+}
+.corner {
+	border-radius: 5px;
+	-moz-border-radius: 5px; /* 老的 Firefox */
+	-webkit-border-radius: 5px;
+	position: relative;
+	z-index: 2;
+}
+/*login*/
+.log{ width:100%; margin:150px auto 50px;}
+.login_bg_ots {
+	width: 794px;
+	height:268px;
+	background: url(../images/login/dl_loginbg_ots.png) no-repeat;
+}
+.login_bg_oes {
+	width: 794px;
+	height:268px;
+	background: url(../images/login/dl_loginbg_oes.png) no-repeat;
+}
+.login_bg_admin {
+	width: 794px;
+	height:268px;
+	background: url(../images/login/dl_loginbg_admin.png) no-repeat;
+}
+.login {
+	position:relative;
+	float:left;
+	width: 355px;
+	padding:25px 0 0 395px;
+}
+.login_title{ float:left;width: 355px; height:35px; border-bottom:1px solid #ccc; margin-bottom:20px;}
+.login_title_1{ float:left; font-size:20px; font-family:Microsoft YaHei, Tahoma, Helvetica, Arial, "宋体", sans-serif; color:#464646; padding:10px 0 0 10px;}
+.loginbox {
+	clear:both;
+	margin:0 auto;
+	width: 350px;
+	height: auto;
+	padding:0 10px;
+}
+.conbox{float: left; width: 350px; padding-bottom:8px;}
+.boxname{ float:left;width: 82px; height:27px; line-height:27px; text-align:right; padding-right:8px;font-size:16px; font-family:Tahoma,Helvetica,Arial,"宋体",sans-serif; color:#464646; }
+.l_username,.l_password,.captchabox  {
+	float: left;
+	width: 250px;
+	height: 27px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:4px;
+	-moz-border-radius: 4px; /* 老的 Firefox */
+	-webkit-border-radius: 4px;
+	overflow: hidden;
+	-moz-box-shadow:1px 1px 1px #f1f1f1 inset; /* 内阴影 For Firefox3.6+ */
+	-webkit-box-shadow:2px 2px 1px #f1f1f1 inset;/* For Chrome5+, Safari5+ */
+	box-shadow:2px 2px 2px #f1f1f1 inset;/* For Latest Opera */
+}
+.l_username input, .l_password input,.captchabox input {
+	float: left;
+	width: 240px;
+	height: 25px;
+	line-height:25px;
+	padding:0 5px;
+	overflow: hidden;
+	color: #464646;
+	font-size:14px;
+	background:none;
+	border:none;
+}
+.captchaDI  {
+	float:left;
+	width: 250px;
+	height: 27px;
+	/*visibility:hidden;*/
+	display: ;
+}
+.captchabox{
+	display: inline;
+	margin:0 10px 10px 0;
+	width: 70px;
+	height: 25px;
+}
+.captchabox input{
+	width: 60px;
+	height: 25px;
+	line-height:25px;
+	text-align:center;
+}
+.l_hint {
+	position:absolute;
+	z-index:999;
+	top:3px;
+	left:395px;
+	float: left;
+	width:350px;
+	height: 40px;
+}
+.l_wrong {
+	width: 350px;
+	line-height: 18px;
+	height: 40px;
+	color: #C03;
+	font-size:12px;
+	text-align:center;
+}
+.conbox_autoLogin{float: left; width: 350px;}
+.l_language{ float:left;font-size:14px; color: #999;line-height: 20px;}
+.l_language select{ float:left;width: 82px;font-size:14px; color: #464646;line-height: 20px;}
+.language{}
+.l_autoLogin{ float:left;font-size:14px; color: #999;line-height: 20px;position:relative;top:0px;left:50px;width: 350px}
+a.l_forgotPassword{ float:left;font-size:14px; color: #999;line-height: 20px; margin-left:10px; }
+a.l_forgotPassword:hover{font-size:14px; color: #464646; }
+
+a.l_enter {
+	/*display:inline;*/
+	float: left;
+	width: 250px;
+	height: 27px;
+	line-height: 27px;
+	font-family:Microsoft YaHei, Tahoma, Helvetica, Arial, "宋体", sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	background:#4fa7e2;
+	border:1px solid #4195cd;
+	border-radius:4px;
+	-moz-border-radius: 4px; /* 老的 Firefox */
+	-webkit-border-radius: 4px;
+	position:relative;top:10px;
+}
+a.l_enter:hover {
+	background:#2b79ad;
+	border:1px solid #2b79ad;
+	color:#fff;
+}
+/*foot*/
+.foot_info{ float:left; width:100%; text-align:center;}
+.foot_info a{ color:#999;}
+.foot_info a:hover{ color:#0060be;}
